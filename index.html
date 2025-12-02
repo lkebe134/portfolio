@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Lamine Kebe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Lamine Kebe</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apropos" class="nav-link">À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#parcours" class="nav-link">Parcours</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#stages" class="nav-link">Stages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projets" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#veille" class="nav-link">Veille</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Bonjour, je suis</span>
+                        <span class="title-name">Lamine Kebe</span>
+                        <span class="title-role">Etudiant en BTS SIO SLAM</span>
+                    </h1>
+                    <p class="hero-description">
+                        Passionné par le développement web et les nouvelles technologies, 
+                        j'étudie dans le but de devenir développeur web et mobile.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="CV_stage.pdf" class="btn btn-primary">CV</a>
+                        <a href="Fiche_synthese.pdf" class="btn btn-secondary">Fiche synthèse</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="floating-elements">
+                            <div class="floating-icon" style="--delay: 0s">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 1s">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 2s">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 3s; bottom: 12%; right: 10%;">
+                                <i class="fas fa-database" title="SQL" aria-label="SQL"></i>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+
+    <!-- Section À Propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À Propos de Moi</h2>
+                <p class="section-subtitle">Découvrez mon parcours et mes compétences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Présentation</h3>
+                        <p>
+                            Bonjour, je suis Lamine Kebe, actuellement étudiant en BTS SIO 
+                            (Services Informatiques aux Organisations) option SLAM(Solutions Logicielles et Applications Métiers). 
+                            Je me spécialise dans le développement d'applications web et mobiles.
+                        </p>
+                    </div>
+                    <div class="skills-section">
+                        <h3>Mes Compétences</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="35%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-php"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">PHP</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="40%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">C#</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-java"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <!-- changer le nombre de projets réalisés -->
+                        <div class="stat-number" data-target="0">0</div>
+                        <div class="stat-label">Projets Réalisés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Années d'Etude supérieure</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="7">0</div>
+                        <div class="stat-label">Langages Maîtrisés</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Parcours -->
+    <section id="parcours" class="timeline">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mon Parcours</h2>
+                <p class="section-subtitle">Formation et expériences professionnelles</p>
+            </div>
+            <div class="timeline-container">
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Stage 2ème année BTS</div>
+                        <h3>???</h3>
+                        <h4>???</h4>
+                        <p>???</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Stage 1ère année BTS</div>
+                        <h3>Support informatique</h3>
+                        <h4>Hopital Andre Gregoire - Montreuil</h4>
+                        <p>Installation de postes informatiques, support utilisateur, déploiement de logiciels, Resolution de problemes informatiques, formation de nouveaux stagiaires etc.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2026</div>
+                        <h3>BTS SIO Option SLAM</h3>
+                        <h4>Lycée Louise Michel - Bobigny</h4>
+                        <p>Formation spécialisée dans le développement d'applications logicielles et solutions métier.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Stage 3eme année BAC PRO</div>
+                        <h3>Support informatique</h3>
+                        <h4>Hopital Andre Gregoire - Montreuil</h4>
+                        <p>Installation de postes informatiques, Resolution de problemes informatiques et Rangement du materiel</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Stage 2eme année BAC PRO</div>
+                        <h3>Developpement web</h3>
+                        <h4>ZEMUS - Kremlin Bicetre</h4>
+                        <p>Recensement de lien web et apprentissage HTML et CSS</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Stage 1ère année BAC PRO</div>
+                        <h3>Point Relai et Vente</h3>
+                        <h4>LMS78 - Versaille</h4>
+                        <p>Rangement de colis et vente d'accessoire informatique</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2024</div>
+                        <h3>BAC PRO SN</h3>
+                        <h4>Lycée Condorcet - Montreuil</h4>
+                        <p>Fomation basée sur la création et la gestion de resaux informatiques.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Stages -->
+    <section id="stages" class="stages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Stages</h2>
+                <p class="section-subtitle">Expériences de 1ère et 2ème année de BTS</p>
+            </div>
+            <div class="stages-grid">
+                <div class="stage-card">
+                    <div class="stage-header">
+                        <span class="stage-year">1ère Année</span>
+                        <span class="stage-date">12 Mai - 21 Juin 2025</span>
+                    </div>
+                    <h3 class="stage-title">Stage 1ère année BTS SIO</h3>
+                    <h4 class="stage-location">Ville de Montreuil - CHI Andre Gregoire</h4>
+                    <p class="stage-desc">Participation au support utilisateur, déploiement de postes, GLPI, formation de nouveaux stagiaires etc.</p>
+                    <div class="stage-tags">
+                        <span class="tag">Support</span>
+                        <span class="tag">Déploiement</span>
+                        <span class="tag">Formation</span>
+                    </div>
+                    <div class="stage-actions">
+                        <a href="Rapport_de_stage.pdf" class="btn btn-primary">Rapport de stage</a>
+                        <a href="https://trello.com/invite/b/6824459f3ad5da2f75291d52/ATTI6a44128b4a5c72b5c7082db803a219e50158E94A/satge-1re-annee" class="btn btn-secondary">Trello</a>
+                    </div>
+                </div>
+
+                <div class="stage-card">
+                    <div class="stage-header">
+                        <span class="stage-year">2ème Année</span>
+                        <span class="stage-date">5 Janvier - 27 Fevrier 2026</span>
+                    </div>
+                    <h3 class="stage-title">Stage 2ème année BTS SIO</h3>
+                    <h4 class="stage-location">???</h4>
+                    <p class="stage-desc">???</p>
+                    <div class="stage-tags">
+                        <span class="tag">???</span>
+                        <span class="tag">???</span>
+                        <span class="tag">???</span>
+                    </div>
+                    <div class="stage-actions">
+                        <a href="#" class="btn btn-primary">Rapport de stage</a>
+                        <a href="#" class="btn btn-secondary">Trello</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Projets</h2>
+                <p class="section-subtitle">Découvrez mes réalisations</p>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="desktop">Desktop</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>???</h3>
+                        <p>???</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">???</span>
+                            <span class="tech-tag">???</span>
+                            <span class="tech-tag">???</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>???</h3>
+                        <p>???</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">???</span>
+                            <span class="tech-tag">???</span>
+                            <span class="tech-tag">???</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>???</h3>
+                        <p>???</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">???</span>
+                            <span class="tech-tag">???</span>
+                            <span class="tech-tag">???</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Veille -->
+    <section id="veille" class="veille">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Veille Technologique</h2>
+            </div>
+            <div class="veille-content">
+                <div class="veille-intro">
+                    <h3>Qu'est-ce que la veille technologique ?</h3>
+                    <p>
+                        La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques, les innovations dans un secteur d’activité donnée. La veille technologique comprend notamment la surveillance, la collecte, le partage et la diffusion d’information permettant d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc…. Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.
+
+                    </p>
+                </div>
+
+                <div class="veille-content">
+                    <div class="veille-intro">
+                        <h3>Content Management System (CMS)</h3>
+                        <p>
+                            <b>Définition d’un CMS : </b>
+                            Un CMS (Content Management System), en français système de gestion de contenu, est une application web qui permet de créer, gérer et publier du contenu sur un site internet sans avoir besoin de coder tout à la main.Concrètement, un CMS fournit :
+                            Une interface d’administration: pour ajouter/modifier des pages, articles, images, menus, etc.
+                            Une séparation contenu / présentation: le texte, les images et les données sont séparés du design (thèmes, templates).
+                            Un système de plugins / extensions: pour ajouter des fonctionnalités (formulaires, SEO, e‑commerce, analytics…).
+                            Une gestion des utilisateurs et des rôles: administrateurs, éditeurs, auteurs, etc.
+
+                        </p>
+                        <p>
+                            Les CMS les plus connus sont WordPress, Joomla, Drupal, ou encore des CMS headless comme Strapi, Contentful.
+
+                        </p>
+                    </div>
+
+                <div class="veille-articles">
+                    <div class="article-card">
+                        <div class="article-date">Date ???</div>
+                        <h4>Titre???</h4>
+                        <p>Description ???</p>
+                        <a href="#" class="article-link">Lire la suite</a>
+                    </div>
+                    <div class="article-card">
+                        <div class="article-date">Date ???</div>
+                        <h4>Titre ???</h4>
+                        <p>Description ???</p>
+                        <a href="#" class="article-link">Lire la suite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-moi</h2>
+                <p class="section-subtitle">N'hésitez pas à me contacter pour plus de renseignement</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Localisation</h4>
+                            <p>Montreuil, France</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>lkebe134@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Téléphone</h4>
+                            <p>+33 7 XX XX XX XX</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Lamine Kebe</p>
+                </div>
+
+                <!--
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+                !-->
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
