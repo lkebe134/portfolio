@@ -78,7 +78,7 @@ function initializeScrollEffects() {
     }, observerOptions);
 
     // Observer les éléments à animer
-    const animatedElements = document.querySelectorAll('.hero-content, .about-content, .timeline-item, .project-card, .article-card, .contact-content, .stage-card');
+    const animatedElements = document.querySelectorAll('.hero-content, .about-content, .timeline-item, .project-card, .article-card, .stage-card');
     animatedElements.forEach(el => {
         el.classList.add('fade-in');
         observer.observe(el);
@@ -150,7 +150,8 @@ function initializeProjectFilter() {
 // Formulaire de contact
 function initializeContactForm() {
     const form = document.getElementById('contact-form');
-    
+    if (!form) return;
+
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         
